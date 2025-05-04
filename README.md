@@ -1,0 +1,5 @@
+# junkbox
+
+```
+docker compose up
+```

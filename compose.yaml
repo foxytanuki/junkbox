@@ -1,0 +1,8 @@
+services:
+  morphic:
+    image: ghcr.io/miurla/morphic:latest
+    env_file: .env.local
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./public/config/models.json:/app/public/config/models.json # Optional: Override default model configuration
